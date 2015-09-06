@@ -18,7 +18,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::Mousse_current_pos()
 {
-    //std::cout<<"X:" << ui->widget->x << " Y:" << ui->widget->y << std::endl;
     ui->widget->updateGL();
 }
 

@@ -1,5 +1,3 @@
-#ifndef PARESCANEO_H
-#define PARESCANEO_H
 #include <vector>
 #include <iostream>
 #include "objeto3D.h"
@@ -20,4 +18,7 @@ public:
     float x, y, theta;
 };
 
-#endif // PARESCANEO_H
+ParEscaneo::ParEscaneo()
+{
+}
+
