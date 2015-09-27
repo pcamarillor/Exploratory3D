@@ -16,6 +16,8 @@
 
 
 #pragma once
+#include <stdint.h> //for uint32_t.
+#include <stddef.h> //for ptrdiff_t
 
 #include <carve/carve.hpp>
 
@@ -24,6 +26,8 @@
 #include <carve/vertex_decl.hpp>
 #include <carve/edge_decl.hpp>
 #include <carve/face_decl.hpp>
+
+
 
 namespace carve {
   namespace poly {
@@ -45,7 +49,7 @@ namespace carve {
       if (v < &a.front() || v > &a.back()) return -1;
       return v - &a[0];
     }
-    
+
 
     template<unsigned ndim>
     struct Geometry : public Object {

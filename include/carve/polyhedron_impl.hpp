@@ -16,8 +16,11 @@
 
 
 #pragma once
-
+#include <stdint.h> //for uint32_t.
+#include <stddef.h> //for ptrdiff_t
 #include <carve/timing.hpp>
+
+
 
 #include <assert.h>
 #include <list>
@@ -190,7 +193,7 @@ namespace carve {
     }
 
 
-    
+
     inline void Polyhedron::invert() {
       invertAll();
     }
