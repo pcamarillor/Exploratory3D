@@ -34,6 +34,9 @@ Manipulador::Manipulador(void)
     ty = 0.0f;
     tz = 0.0f;
 
+    /*
+    * This code is temporaly hardcoded. As soon as possible, I will do dynamic this reading process. (Shame on me)
+    */
     primer.LoadAC3D("C:/Users/Pablo/Dropbox/Tesis_Maestria/ExploracionAutonoma/build-AppExploracionAutonoma-Desktop_Qt_5_2_0_MSVC2010_32bit_OpenGL-Debug/primer.ac");
     bounding_primer.LoadAC3D("C:/Users/Pablo/Dropbox/Tesis_Maestria/ExploracionAutonoma/build-AppExploracionAutonoma-Desktop_Qt_5_2_0_MSVC2010_32bit_OpenGL-Debug/b_primer.ac");
     segundo.LoadAC3D("C:/Users/Pablo/Dropbox/Tesis_Maestria/ExploracionAutonoma/build-AppExploracionAutonoma-Desktop_Qt_5_2_0_MSVC2010_32bit_OpenGL-Debug/segundo.ac");
